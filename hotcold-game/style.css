@@ -1,0 +1,44 @@
+body {
+    font-family: Quicksand sans-serif;
+    color : black;
+}
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+header {
+    display: inline-block;
+    width: 50%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+h1 {
+    color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-btn {
+    padding: 15px 40px;
+    background : pink;
+    border : 1px solid pink;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.header-btn:hover {
+    padding: 15px 40px;
+    background : black;
+    color: pink;
+    border : 1px solid black;
+    border-radius: 25px;
+}
+
+.rules-container {
+
+    height : 100%;
+    width: 50%;
+    padding : 1rem;
+}
