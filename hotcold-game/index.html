@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
@@ -9,20 +9,22 @@
 <header>
     <h1>The hot cold game</h1>
 </header>
-<div class="rules-container">
-    <div class="rules-container">
+<div class="game-container">
         <h2>Règles du jeu</h2>
         <ul>
         <li>Le but du jeu est de trouver un nombre compris entre 1 et 100</li>
         <li>Vous avez jusqu'à 10 essais</li>
         <li>Si vous trouvez le nombre mystère, avant la fin de la partie, vous avez gagné !</li>
         </ul>
-        <button class="header-btn" href="/">Commencer une partie</button>
-    </div>
-</div>
-<div class="gameplay-container">
+        <button class="begin-game-btn" href="/">Commencer une partie</button>
+        <form class="gameplay-container">
+         <form>
+             <input type="text" value="Entrez un nombre entre 1 et 100 :">
+         </form>
+        </form>
+ </div>
 
-</div>
+
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

@@ -1,9 +1,12 @@
-const mysteryNumber = Math.floor(Math.random() *100);
+const mysteryNumber = Math.floor(Math.random() *100) +1;
 console.log(mysteryNumber);
+const beginGame = document.querySelector(".begin-game-btn");
+const displayGameContainer = document.querySelector(".gameplay-container");
 
-const gameTurnsNumber = 10;
-var namePlayer;
-
+beginGame.addEventListener("click",() => {
+beginGame.classList.add("begin-game-btn-clicked");
+displayGameContainer.style.visibility = "visible";
+})
 
 
 

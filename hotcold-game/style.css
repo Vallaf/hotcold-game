@@ -20,7 +20,7 @@ h1 {
     text-align: center;
 }
 
-.header-btn {
+.begin-game-btn {
     padding: 15px 40px;
     background : pink;
     border : 1px solid pink;
@@ -28,17 +28,26 @@ h1 {
     text-transform: uppercase;
 }
 
-.header-btn:hover {
-    padding: 15px 40px;
+.begin-game-btn-clicked {
     background : black;
     color: pink;
     border : 1px solid black;
-    border-radius: 25px;
 }
 
-.rules-container {
-
+.game-container {
     height : 100%;
     width: 50%;
     padding : 1rem;
+}
+
+.gameplay-container{
+    visibility: hidden;
+}
+
+form {
+    margin: 50px 0 0 20px;
+}
+
+input {
+    color : deeppink;
 }
