@@ -59,10 +59,24 @@ input {
     color : deeppink;
 }
 
-#button-validation {
+#value-submit {
     padding: 10px 30px;
     background : black;
     color: pink;
     border : 1px solid black;
     border-radius: 25px;
+}
+
+#value-submit:hover {
+    padding: 10px 30px;
+    background : pink;
+    color: black;
+    border : 1px solid pink;
+    border-radius: 25px;
+}
+
+#result {
+    font-size : 30px;
+    color: hotpink;
+    font-weight: bold;
 }
