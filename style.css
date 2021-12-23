@@ -1,0 +1,82 @@
+body {
+    font-family: Quicksand sans-serif;
+    color : black;
+    margin: 0;
+}
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+header {
+    border: 1px solid black;
+    background-color: black;
+}
+
+h1 {
+    color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.begin-game-btn {
+    padding: 15px 40px;
+    background : pink;
+    border : 1px solid pink;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.begin-game-btn-clicked {
+    background : black;
+    color: pink;
+    border : 1px solid black;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    padding : 1rem;
+}
+
+.rules-container {
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+.gameplay-container{
+    display: flex;
+    visibility: hidden;
+}
+
+form {
+    margin: 50px 0 0 20px;
+}
+
+input {
+    color : deeppink;
+}
+
+#value-submit {
+    padding: 10px 30px;
+    background : black;
+    color: pink;
+    border : 1px solid black;
+    border-radius: 25px;
+}
+
+#value-submit:hover {
+    padding: 10px 30px;
+    background : pink;
+    color: black;
+    border : 1px solid pink;
+    border-radius: 25px;
+}
+
+#result {
+    font-size : 30px;
+    color: hotpink;
+    font-weight: bold;
+}
