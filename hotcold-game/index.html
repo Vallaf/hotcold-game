@@ -14,20 +14,21 @@
     <div class="rules-container">
         <h2>Règles du jeu</h2>
         <ul>
-        <li>Le but du jeu est de trouver un nombre compris entre 1 et 100</li>
-        <li>Vous avez jusqu'à 10 essais</li>
-        <li>Si vous trouvez le nombre mystère, avant la fin de la partie, vous avez gagné !</li>
+            <li>Le but du jeu est de trouver un nombre compris entre 1 et 100</li>
+            <li>Vous avez jusqu'à 10 essais</li>
+            <li>Si vous trouvez le nombre mystère, avant la fin de la partie, vous avez gagné !</li>
         </ul>
         <button class="begin-game-btn" href="/">Commencer une partie</button>
     </div>
     <div class="gameplay-container">
         <label>Entrez un nombre compris entre 1 et 100 :
             <input id="number-input" type="number" min="1" max="100">
-            <input id="value-submit" type="submit"/>
+            <button id="submit" type="submit">Valider</button>
         </label>
     </div>
-
     <div id="result">
+    </div>
+    <div id="message">
     </div>
 </div>
 <script type="text/javascript" src="index.js"></script>
